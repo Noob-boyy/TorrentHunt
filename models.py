@@ -12,7 +12,7 @@ class dbQuery():
         isRegistered = cur.execute(f'SELECT * FROM users WHERE userId={userId}').fetchone()
         con.commit()
 
-        isRegistered = False if isRegistered else False
+        isRegistered = True if isRegistered else False
 
         if not isRegistered:
             cur.execute(f'Insert into users (userId) values ({userId})')
