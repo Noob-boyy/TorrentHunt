@@ -13,6 +13,7 @@
 </a>
 </a>
 </p>
+https://heroku.com/deploy?template=https://github.com/Noob-boyy/TorrentHunt
 
 <p align="center">
 <img src="images/TorrentHunt.jpg" align="center" height=365 alt="Torrent Hunt Bot" />
