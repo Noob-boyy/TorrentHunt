@@ -1,1 +1,2 @@
-worker: python3 migrations.py python3 torrenthunt.py
+worker: python3 migrations.py 
+python3 torrenthunt.py
