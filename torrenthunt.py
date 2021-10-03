@@ -79,7 +79,7 @@ def text(message):
 if config['connectionType'] == 'polling':
     #! Remove previous webhook if exists
     bot.remove_webhook()
-    bot.polling(none_stop=False)
+    bot.polling(none_stop=True)
 
 #: Webhook Bot
 elif config['connectionType'] == 'webhook':
