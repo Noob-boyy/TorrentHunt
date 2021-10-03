@@ -1,5 +1,5 @@
 #! Basic
-from src.objs import config, dbSql
+from src.objs import config,
 from src.objs import bot, language
 
 #! Commands
